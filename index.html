@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário HTML</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulário HTML</h1>
+        <form id="form-html">
+            <input type="number" id="numero-Campo-A" min="0" required placeholder="Campo A" />
+            <input type="number" id="numero-Campo-B" min="0" required placeholder="Campo B" />
+            <p class="error-message">Formulário inválido! B deve ser maior que A</p>
+            <textarea id="textarea" placeholder="Descrição (Opicional)"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <p class="success-message"></p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
